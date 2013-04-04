@@ -28,7 +28,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 import operator
-from django.core.serializers import json
+import json
 from django.db import models
 from django.core.exceptions import FieldError, ImproperlyConfigured
 from django.core.paginator import Paginator, InvalidPage
