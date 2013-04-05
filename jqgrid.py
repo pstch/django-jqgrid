@@ -124,6 +124,7 @@ class JqGrid(object):
             'le': ('%(field)s__lte', False),
             'ew': ('%(field)s__endswith', False),
             'cn': ('%(field)s__contains', False)
+            're': ('%(field)s__regex', False)
         }
         _filters = self.get_filters(request)
         if _filters is None:
